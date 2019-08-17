@@ -7,14 +7,13 @@
  */
 
 import React from 'react';
-import NavigationManager from './screens/NavigationManager';
-if(__DEV__) {
-  import('./config/ReactotronConfig').then(() => console.log('Reactotron Configured'))
-}
+import {View, Text} from 'react-native';
 
 const App = () => {
   return (
-    <NavigationManager />
+    <View style={{justifyContent: 'center', alignItems: 'center'}}>
+      <Text>Hello world!!</Text>
+    </View>
   );
 };
 
