@@ -11,7 +11,7 @@ import {View, Text} from 'react-native';
 
 const App = () => {
   return (
-    <View style={{justifyContent: 'center', alignItems: 'center'}}>
+    <View style={{justifyContent: 'center', alignItems: 'center', marginTop: 200}}>
       <Text>Hello world!!</Text>
     </View>
   );
